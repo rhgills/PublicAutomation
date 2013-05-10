@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'PublicAutomation'
-  s.version = '0.0.1'
+  s.version = '0.2'
   s.summary = 'Wrapper for Apple\'s internal UIAutomation APIs.'
   s.homepage = 'https://github.com/TestingWithFrank/PublicAutomation'
   s.license = 'Apache2'
