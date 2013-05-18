@@ -4,7 +4,7 @@ PublicAutomation is a wrapper around the private framework used by Apple's UIAut
 
 PublicAutomation exposes a nice Objective C API for simulating user interactions (touches, swipes, etc.).
 
-PublicAutomation is very young, but already exposes enough functionality to write test automation scripts for most apps.
+PublicAutomation is young, but already exposes enough functionality to write test automation scripts for most apps.
 
 PublicAutomation is best used together with a view selection library (like [Shelley](http://github.com/TestingWithFrank/Shelley) or [Igor](http://github.com/dhemery/Igor)) and a nice high-level testing framework (like [Cucumber](http://cukes.info)). You should use [Frank](http://testingwithfrank.com) for that. It ties PublicAutomation and these other tools together for you in a pretty bow.
 
