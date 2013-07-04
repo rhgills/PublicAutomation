@@ -42,7 +42,18 @@
     CGPoint tapPointInWindowCoords = [view convertPoint:point toView:[view window]];
     CGPoint tapPointInScreenCoords = [[view window] convertPoint:tapPointInWindowCoords toWindow:nil];
     
+//    NSLog(@"TEST");
+//    NSLog(@"view frame: %@", NSStringFromCGRect([view frame]));
+//    NSLog(@"window frame: %@", NSStringFromCGRect([[view window] frame]));
+//    NSLog(@"screen frame: %@", NSStringFromCGRect([[UIScreen mainScreen] bounds]));
+//    NSLog(@"application frame: %@", NSStringFromCGRect([[UIScreen mainScreen] applicationFrame]));
+//    
+//    NSLog(@"WARNING: ADDING 44 TO SCREEN COORD!!!");
+//     tapPointInScreenCoords.y += ((176 / 2) / 2);
+    
     NSLog(@"tapping at (%.2f,%.2f)", tapPointInScreenCoords.x,tapPointInScreenCoords.y);
+   
+    
     [[self uia] sendTap:tapPointInScreenCoords];
     
     return tapPointInScreenCoords;
